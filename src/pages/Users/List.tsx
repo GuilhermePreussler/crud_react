@@ -14,13 +14,13 @@ export default function List() {
         <Box sx={{ flexGrow: 1 }}>
           <PageTitle title="Lista" />
           <Breadcrumbs
-            path={[{ label: "Usuários", to: "/users" }, { label: "Lista" }]}
+            path={[{ label: "Usuários", to: "/crud_react" }, { label: "Lista" }]}
           />
         </Box>
         <Box sx={{ alignSelf: "center" }}>
           <Button
             component={RouterLink}
-            to="/users/new"
+            to="/crud_react/new"
             variant="contained"
             startIcon={<PersonAddAltIcon />}
           >

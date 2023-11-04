@@ -80,7 +80,7 @@ export default function Form() {
       setUsers(newUsers)
     }
 
-    navigate("/users/")
+    navigate("/crud_react/")
   }
 
   const onZipCodeBlur = async (

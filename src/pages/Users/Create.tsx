@@ -11,7 +11,7 @@ export default function Create() {
       <Stack sx={{ marginBottom: 2 }}>
         <PageTitle title="Criar Novo Usuário" />
         <Breadcrumbs
-          path={[{ label: "Usuários", to: "/users/" }, { label: "Novo" }]}
+          path={[{ label: "Usuários", to: "/crud_react/" }, { label: "Novo" }]}
         />
       </Stack>
       <Paper>

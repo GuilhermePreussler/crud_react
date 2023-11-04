@@ -11,10 +11,10 @@ export function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/users">
-        <Route path="/users" element={<UserList />} />
-        <Route path="/users/new" element={<UserCreate />} />
-        <Route path="/users/:id" element={<UserEdit />} />
+      <Route path="/">
+        <Route path="/crud_react" element={<UserList />} />
+        <Route path="/crud_react/new" element={<UserCreate />} />
+        <Route path="/crud_react/:id" element={<UserEdit />} />
       </Route>
     </Routes>
   )

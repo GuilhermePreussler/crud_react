@@ -29,7 +29,7 @@ export default function Grid() {
 
   const onEdit = (params: GridRenderCellParams) => {
     if (!params.row.id) return
-    navigate(`/users/${params.row.id}`)
+    navigate(`/crud_react/${params.row.id}`)
   }
 
   const onDelete = (params: GridRenderCellParams) => {

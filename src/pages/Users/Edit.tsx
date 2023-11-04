@@ -11,7 +11,7 @@ export default function Edit() {
       <Stack sx={{ marginBottom: 2 }}>
         <PageTitle title="Editar Usuário" />
         <Breadcrumbs
-          path={[{ label: "Usuários", to: "/users/" }, { label: "Editar" }]}
+          path={[{ label: "Usuários", to: "/crud_react/" }, { label: "Editar" }]}
         />
       </Stack>
       <Paper>
